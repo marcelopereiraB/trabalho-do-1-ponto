@@ -13,7 +13,7 @@ public class ContatoController {
 
     @GetMapping("/dados")
     public String getDadosFixos() {
-        return "Nome: " + nomeFixo + ", Telefone: " + telefoneFixo + ", Email: " + emailFixo;
+        return "Nome: " + nome + ", Telefone: " + telefone + ", Email: " + email;
     }
 
     @PostMapping("/cadastrar")
